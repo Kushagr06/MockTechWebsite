@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Bootstrap link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!--CSS Link-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+ <link rel="stylesheet" href="style.css"> 
+  <title>Technology.com</title>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-primary py-3 py-sm-1">
+    <div class="container" id="tech.com"><a href='#' class="navbar-brand">
+     Technology.com
+     <i class="bi bi-globe"></i>
+     </a>
+     <div class="collapse navbar-collapse" id="navmenu"></div>
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a href="#home" class="nav-link"><span onclick="Click1()" class="text-warning">
+            <i class="bi bi-house"></i>
+            Home</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="#aboutus" class="nav-link"><span onclick="Click2()" class="text-warning">
+            <i class="bi bi-file-person"></i>About Us</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="#categories" class="nav-link"><span onclick="Click3()"  class="text-warning">
+            <i class="bi bi-list"></i>
+            Categories</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="#categories" class="nav-link"><span onclick="Click4()" class="text-warning">
+            <i class="bi bi-newspaper"></i>
+            Newsletter</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="#signup" class="nav-link"><span data-bs-toggle="modal" data-bs-target="#signup" class="text-warning">
+            <i class="bi bi-people"></i>
+            Sign Up</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--showcase-->
+  <section class="bg-dark text-light p-5 p-lg-5 p-t-lg-5 text-center text-sm-start">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+          <h1><span class="text-warning">More Than Meets The Eye</span></a></h1>
+          <p class="lead  my-4">
+            Technology.com is dedicated to researching old as well as upcoming technology in order to provide our readers the best inside scoops on technological trends and devices.
+          </p>
+          <p><span class="text-warning">Sign Up</span> and <span class="text-warning">Subscribe</span> to the Newsletter for weekly articles</p>
+          <button onclick=Clicke() class="btn btn-primary btn-lg"data-bs-toggle="modal" data-bs-target="#enroll">Share your Blog</button>
+          <span id="thankyou"></span>
+        </div>
+        <img class="img-fluid w-50 d-none d-sm-block"src="img1.jpg" alt="Image 1 here">
+      </div>
+     </div>
+  </section>
+  <div class="container">
+  
+  <!--boxes-->
+  <section class="">
+    <div class="container p-5 p-lg-5">
+      <h1 class="span-text-dark"id='title'>Latest Articles:</h1></div>
+      <span id="space" class="container pb-5"></span>
+
+      <div class="row text-center">
+        <div class="col-md">
+          <div class="card bg-secondary text-light">
+            <div class="card-body text-center">
+              <div class="h1" mb-3>
+             <i class="bi bi-pen-fill"></i>
+             </div>
+             <h3 class="card-title mb-3">
+               The Manhattan Project
+             </h3>
+             <p class="card-text">
+              <small>made by KN on july 27</small>
+              <p>The Manhattan Project was a research and developement undertaking during World War II that produced the first nuclear weapons. It was led by the US with the support of the UK and Cannada.xoxoJapan</p>
+             </p>
+             <a href="#" class="btn btn-dark">Read More</a>
+            </div>
+          </div>
+      </div> 
+
+      <div class="col-md">
+        <div class="card bg-secondary text-light">
+          <div class="card-body text-center">
+            <div class="h1" mb-3>
+           <i class="bi bi-pen-fill"></i>
+           </div>
+           <h3 class="card-title mb-3">
+             The Manhattan Project
+           </h3>
+           <p class="card-text">
+            <small>made by KN on july 27</small>
+            <p>The Manhattan Project was a research and developement undertaking during World War II that produced the first nuclear weapons. It was led by the US with the support of the UK and Cannada.xoxoJapan</p>
+           </p>
+           <a href="#" class="btn btn-dark" >Read More</a>
+          </div>
+        </div>
+    </div> 
+    
+
+    <div class="col-md pb-5">
+      <div class="card bg-secondary text-light">
+        <div class="card-body text-center">
+          <div class="h1" mb-3>
+         <i class="bi bi-pen-fill"></i>
+         </div>
+         <h3 class="card-title mb-3">
+           The Manhattan Project
+         </h3>
+         <p class="card-text">
+          <small>made by KN on july 27</small>
+          <p>The Manhattan Project was a research and developement undertaking during World War II that produced the first nuclear weapons. It was led by the US with the support of the UK and Cannada.xoxoJapan</p>
+         </p>
+         <a href="#" class="btn btn-dark" >Read More</a>
+        </div>
+      </div>
+  </div> 
+<!--button-->
+  <button class="btn btn-dark btn-lg"  id='lg' onclick="runEvent()">Read more Articles!</button>
+  </div>
+  </div>
+  <!--footer-->
+  <div class="container p-5 p-lg-5 ">
+    <h1 class="span-text-dark">Archives and Categories:</h1></div>
+  <footer class="p-5 bg-dark text-white text-left position-relative">
+    <div class="container p-5">
+      <h2>BackgroundColor</h2>
+      <button class="btn btn-primary btn-lg"  id='lg' onclick="Default()"><h4>Default</h4></button>
+      <div id="box" style="width:400px;height:200px;background:#f4f4f4"></div>
+
+      <h2>Archives</h2>
+      <ul>
+        <li><a href="">March 2018</a></li>
+        <li><a href="">April 2018</a></li>
+        <li><a href="">May 2018</a></li>
+        <li><a href="">June 2018</a></li>
+        <li><a href="">July 2018</a></li>
+        <li><a href="">August 2018</a></li>
+        <li><a href="">September 2018</a></li>
+        <li><a href="">October 2018</a></li>
+     </ul>
+     <h2>Categories</h2>
+     <ul>
+        <li><a href="">Agricullture</a></li>
+        <li><a href="">Automation</a></li>
+        <li><a href="">Banking</a></li>
+        <li><a href="">Computer</a></li>
+        <li><a href="">Energy</a></li>
+        <li><a href="">Medical</a></li>
+        <li><a href="">Military</a></li>
+        <li><a href="">Transportation</a></li>
+     </ul>
+     <div class="text-center">
+      <p class="lead"><small>Copyright &copy; 2021 ISTE</small></p>
+      <a href="#" class="postion-absolute bottom-0 end-0 p-5">
+       <p><i class="bi bi bi-arrow-up-circle h1"></i></p>
+       </a>
+       <p class><a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""> <i class="bi bi-twitter"></i></a>
+          <a href=""> <i class="bi bi-envelope"></a></i></p>
+      
+      </div>
+    </div>
+  </footer>
+          
+   <!-- Modal -->
+<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enroll" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="enroll">Make Your Entry!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="lead">Enter your details and your blog. If verified, we will publish it on our site</p>
+        <form >
+          <div class="mb-3">
+            <label for="name" class="col-form-label">
+              Name:
+            </label>
+            <input type="text" class="form-control" id="first-name">
+            <label for="email" class="col-form-label">
+              Email:
+            </label>
+            <input type="text" class="form-control" id="email">
+            <label for="title" class="col-form-label">
+              Title of your Blog:
+            </label>
+            <input type="text" class="form-control" id="title">
+            <label for="content" class="col-form-label">
+              Content:
+            </label>
+            <textarea class="form-control" aria-label="With textarea"></textarea>
+         </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="signup" tabindex="-1" aria-labelledby="signup" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="enroll">SIGN UP</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Sign up to enjoy a vareity of exclusive features from our site including a monthly Newsletter!</p>
+          <form >
+            <div class="mb-3">
+              <label for="name" class="col-form-label">
+                Name:
+              </label>
+              <input type="text" class="form-control" id="first-name">
+              <label for="email" class="col-form-label">
+                Email:
+              </label>
+              <input type="text" class="form-control" id="email">
+              <label for="title" class="col-form-label">
+                Site tag-name:
+              </label>
+              <input type="text" class="form-control" id="title">
+              <label for="content" class="col-form-label">
+                About Yourself:
+              </label>
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+           </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button onclick="Clicke()" type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  <script src="sourse.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
